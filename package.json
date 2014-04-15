@@ -1,28 +1,7 @@
 {
-  "name": "to-double-quotes",
-  "version": "0.3.1",
+  "name": "sindresorhus-to-double-quotes",
   "description": "Convert matching single-quotes to double-quotes: I 'love' unicorns => I \"love\" unicorns",
-  "license": "MIT",
-  "repository": "sindresorhus/to-double-quotes",
-  "main": "to-double-quotes.js",
-  "bin": {
-    "to-double-quotes": "cli.js"
-  },
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "to-double-quotes.js",
-    "cli.js"
-  ],
+  "version": "0.3.1",
   "keywords": [
     "normalize",
     "quotes",
@@ -37,7 +16,7 @@
     "matching",
     "replace"
   ],
-  "devDependencies": {
-    "mocha": "*"
-  }
+  "main": "to-double-quotes.js",
+  "dependencies": {},
+  "license": "MIT"
 }
